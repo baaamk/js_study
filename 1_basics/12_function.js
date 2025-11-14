@@ -31,8 +31,8 @@ const multiplyThree = function(x,y,z){
 
 console.log(multiplyThree(4, 5, 6))
 
-const multiplyAll = function(...arguments){;
-    return Object.values(arguments).reduce((a, b)=> a * b, 1)
+const multiplyAll = function(...args){;
+    return Object.values(args).reduce((a, b)=> a * b, 1)
 }
 
 console.log(multiplyAll(3, 4, 5, 6, 7, 8, 9, 10));
